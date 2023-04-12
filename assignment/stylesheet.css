@@ -1,3 +1,30 @@
+/* Assignment style */
+
+.info{
+    border: 2px solid black;
+    margin: 50px;
+    padding: 5px;
+    text-align: center;
+}
+
+/* Styling a menu bar */
+
+#menu-bar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    display: inline;
+}
+
+li a:hover{
+    background-color: white;
+}
+
+/* Assignment style */
+
 h2{
     background-color:beige;
     color:cornflowerblue;
@@ -7,3 +34,4 @@ h3{
     background-color: bisque;
     color: darkgreen;
 }
+

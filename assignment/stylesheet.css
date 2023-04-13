@@ -60,7 +60,6 @@ body {
 }
 
 header {
-  /* background-color: hsla(176, 46%, 61%, 0.693); */
   background-color: var(--green-1);
   border-radius: 4rem;
   margin: 1rem auto;
@@ -81,6 +80,7 @@ h1 {
   text-align: center;
   box-shadow: var(--shadow-3);
   border-radius: var(--borderRadius);
+  background-color: var(--transparent-bcg);
 }
 .info img {
   width: 30rem;

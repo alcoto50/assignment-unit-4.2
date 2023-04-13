@@ -9,7 +9,7 @@ html {
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'Courier New', Courier, monospace;
   font-size: 1.6rem;
   background-color: #19171d;
   color: #d1d2d3;
@@ -18,11 +18,11 @@ body {
 header {
   background-color: #1a1d21;
   text-align: center;
-  margin: 2rem;
+  padding: 2rem;
 }
 
 .info {
-  height: 100vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -31,23 +31,34 @@ header {
 
 .info h2 {
   background-color: #d1d2d3;
-  color: #1a1d21;
+  color: #212023;
   padding: 1rem;
   border-radius: 2rem;
+  font-size: 4rem;
+  margin-bottom: 4rem;
+}
+
+.info h3 {
+  font-size: 2rem;
   margin: 2rem;
+  background-color: rgba(72, 255, 255, 0.3);
+  border-radius: 2rem;
+  padding: 1rem 1.6rem;
+  color: #a0a0a2;
 }
 
 img {
-  width: 40rem;
+  width: 60rem;
 }
 
 .bike {
-  background-color: #d1d2d3;
+  background-color: rgba(209, 210, 211, 0.4);
   padding: 1rem;
   border-radius: 2rem;
+  transition: background-color 0.5s;
+  cursor: pointer;
 }
 
-h3 {
-  margin-top: 2rem;
-  font-family: Arial, Helvetica, sans-serif;
+.bike:hover {
+  background-color: rgba(209, 210, 211, 0.6);
 }

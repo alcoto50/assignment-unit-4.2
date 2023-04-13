@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+}
+/* Variables */
+:root {
+  /* colors (5 color pallete generated from coolors.com)*/
+  --green-1: #606c38;
+  --green-2: #283618;
+  --tan-1: #fefae0;
+  --tan-2: #dda15e;
+  --tan-3: #bc6c25;
+
+  --grey-50: #f8fafc;
+  --grey-100: #f1f5f9;
+  --grey-200: #e2e8f0;
+  --grey-300: #cbd5e1;
+  --grey-400: #94a3b8;
+  --grey-500: #64748b;
+  --grey-600: #475569;
+  --grey-700: #334155;
+  --grey-800: #1e293b;
+  --grey-900: #0f172a;
+
+  --black: #222;
+  --white: #fff;
+  --red-light: #f8d7da;
+  --red-dark: #842029;
+  --green-light: #d1e7dd;
+  --green-dark: #0f5132;
+
+  /* fonts */
+  --headingFont: "Spectral", serif;
+  --bodyFont: "Karla", sans-serif;
+  --smallText: 0.7em;
+
+  /* rest of the vars */
+  --backgroundColor: var(--tan-1);
+  --textColor: var(--grey-900);
+  --borderRadius: 0.25rem;
+  --letterSpacing: 1px;
+  --transition: 0.3s ease-in-out all;
+  --max-width: 1170px;
+  --fixed-width: 600px;
+
+  /* box shadow */
+  --shadow-1: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --shadow-2: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+  --shadow-3: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --shadow-4: 0 20px 25px -5px rgb(0 0 0 / 0.1),
+    0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+/* styles */
+body {
+  background-color: var(--backgroundColor);
+  color: var(--textColor);
+}
+
+header {
+  /* background-color: hsla(176, 46%, 61%, 0.693); */
+  background-color: var(--green-1);
+  border-radius: 4rem;
+  margin: 1rem auto;
+  text-align: center;
+  box-shadow: var(--shadow-3);
+  width: 95vw;
+  padding: 0.5rem;
+}
+h1 {
+  margin-top: 0;
+}
+
+.info {
+  border: 1px solid var(--tan-2);
+  width: var(--fixed-width);
+  margin: 0 auto;
+  text-align: center;
+  box-shadow: var(--shadow-3);
+  border-radius: var(--borderRadius);
+}
+.info img {
+  width: 30rem;
+  border-radius: var(--borderRadius);
+  box-shadow: var(--shadow-2);
+}
+
+h2 {
+  background-color: var(--tan-2);
+  color: var(--green-2);
+  border-radius: var(--borderRadius);
+  width: 80%;
+  margin: 1rem auto;
+  box-shadow: var(--shadow-2);
+  padding: 0.15rem;
+}
+h3 {
+  background-color: var(--green-2);
+  color: var(--tan-2);
+  width: 50%;
+  margin: 1.5rem auto;
+  border-radius: var(--borderRadius);
+  box-shadow: var(--shadow-2);
+  padding: 0.1rem;
+}
+
+p {
+  margin: 0;
+}
+.underline {
+  background-color: var(--tan-3);
+  height: 4px;
+  width: 25vw;
+  margin: 1.25rem auto;
+  border-radius: 40%;
+  box-shadow: var(--shadow-3);
+}

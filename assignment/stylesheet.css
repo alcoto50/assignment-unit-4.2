@@ -9,19 +9,19 @@
 
 /* Styling a menu bar */
 
-#menu-bar{
+/* #menu-bar{
     list-style-type: none;
     margin: 0;
     padding: 0;
-}
+} */
 
-li{
+/* li{
     display: inline;
 }
 
 li a:hover{
     background-color: white;
-}
+} */
 
 /* Assignment style */
 
@@ -36,7 +36,47 @@ h3{
 }
 
 /* Color block */
-#box{
+/* #box{
     height: 50px;
     width: 50px;
+} */
+
+/* Styling a dropdown menu - taken from https://www.w3schools.com/css/css_dropdowns.asp*/
+.dropbutton{
+    color: black;
+    background-color: gold;
+    padding: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 0 5px 5px;
 }
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a{
+    color: black;
+    display: block;
+    padding: 12px 16px;
+    min-width: 200px;
+}
+
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+
+.dropdown-content a:hover{
+    background-color:bisque;
+}
+
+.dropdown-content a:

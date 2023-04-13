@@ -10,14 +10,18 @@
     <!-- in line styling since the directions to style came before directions to create .css -->
     <header style="background-color: burlywood;">
       <h1>Unit 4, Part 2: HTML/CSS Practice</h1>
-      <div>
-        <ul id="menu-bar">
-          <li><a href="https://www.primeacademy.io/">Prime Digital Academy</a></li>
-          <li><a href="https://github.com/steveshumaker">My GitHub</a></li>
-          <li><a href="https://www.butchertownhall.com/">The Best Restaurant in Nashville</a></li>
-        </ul>
+      <div class="dropdown">
+        <button class="dropbutton">Favorites</button>
+        <!-- <ul id="menu-bar"> -->
+        <div class="dropdown-content">
+          <!-- Added blank target to open in new tab -->
+          <a href="https://www.primeacademy.io/" target="_blank">Prime Digital Academy</a>
+          <a href="https://github.com/steveshumaker" target="blank">My GitHub</a></li>
+          <a href="https://www.butchertownhall.com/" target="blank">The Best Restaurant in Nashville</a>
+        <!-- </ul> -->
       </div>
-      <p>See console for output</p>
+      </div>
+      <!-- <p>See console for output</p> -->
     </header>
 
     <div class="info">

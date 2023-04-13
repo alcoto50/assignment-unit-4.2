@@ -1,0 +1,13 @@
+header {
+    background-color: peachpuff;
+    text-align: center;
+}
+
+h2, h3 {
+    background-color: peru;
+    color: antiquewhite;
+}
+
+div {
+    text-align: center;
+}

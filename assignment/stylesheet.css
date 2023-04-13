@@ -69,6 +69,7 @@ header {
 }
 h1 {
   margin-top: 0;
+  letter-spacing: var(--letterSpacing);
 }
 
 .info {
@@ -93,6 +94,7 @@ h2 {
   margin: 1rem auto;
   box-shadow: var(--shadow-2);
   padding: 0.15rem;
+  letter-spacing: var(--letterSpacing);
 }
 h3 {
   background-color: var(--green-2);
@@ -102,6 +104,8 @@ h3 {
   border-radius: var(--borderRadius);
   box-shadow: var(--shadow-2);
   padding: 0.1rem;
+  letter-spacing: var(--letterSpacing);
+  font-size: 1.1rem;
 }
 
 p {

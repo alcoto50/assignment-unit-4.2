@@ -15,7 +15,9 @@ body {
   --tan-1: #fefae0;
   --tan-2: #dda15e;
   --tan-3: #bc6c25;
+  --transparent-bcg: rgba(0, 0, 0, 0.04);
 
+  /* greys (Slate from tailwind) */
   --grey-50: #f8fafc;
   --grey-100: #f1f5f9;
   --grey-200: #e2e8f0;

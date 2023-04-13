@@ -35,3 +35,8 @@ h3{
     color: darkgreen;
 }
 
+/* Color block */
+#box{
+    height: 50px;
+    width: 50px;
+}

@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background-color: thistle;
+}
+
+header {
+    background-color: thistle;
+}
+
+.info {
+    border: thick double #213e62;
+    max-width: 500px;
+    margin: 1rem;
+    padding: 0 1rem;
+}
+
+.name-header {
+    background-color: #7daef4;
+    color: #fcfdfa;
+    text-shadow: 1px 1px 1px black;
+    font-weight: normal;
+    text-align: center;
+    margin: 1rem auto 0 auto;
+    padding: 1rem;
+}
+
+
+.transport-caption {
+    background-color: #4c5874;
+    color: #87aae1;
+    text-shadow: 1px 1px 1px black;
+    font-weight: normal;
+    text-align: center;
+    margin: -5px auto 1rem auto;
+    padding: 1rem;
+}
+
+img {
+    width: 100%;
+}

@@ -1,0 +1,26 @@
+header {
+    background-color: teal;
+    color: antiquewhite;
+}
+h1, h2, h3 {
+    border-radius: 2px;
+    padding: 5px;
+}
+body {
+    background-color: black;
+}
+h2 {
+    background-color: olive;
+    color: antiquewhite;
+    text-align: center;
+}
+h3 {
+    background-color: olive;
+    color: antiquewhite;
+}
+img {
+    height: 50%;
+    width: 60%;
+    border: dotted;
+    border-color: antiquewhite;
+}
